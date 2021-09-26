@@ -1,0 +1,11 @@
+header{
+    font-family: 'Raleway'; /*police*/
+}
+#nav{
+    color: rgb(60, 101, 209);
+    float:right;
+}
+
+#nav:hover{
+    color: blue;
+}
