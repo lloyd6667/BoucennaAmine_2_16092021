@@ -1,0 +1,39 @@
+body{
+    font-family: 'Raleway';                           /*police Raleway*/
+    color: black;
+    max-width: 1440px;
+    width: auto;
+    margin: auto;
+    font-size: 0.98em;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.2%;
+    margin: 0 3.2% 0 3.2%;
+}
+
+nav{
+    margin-top: 14px;
+    position: relative;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    padding: 1.6em;
+}
+
+.sign-up{
+    color: #0065fc;
+    font-weight: bolder;
+}
+
+nav a:hover{                                     /* barre au-dessus du texte */
+    color: #0065fc;
+    border-top: 2px solid
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   Header  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
