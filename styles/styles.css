@@ -440,12 +440,12 @@ aside div article div span{
 
 footer{
     background-color: #F2F2F2;
-    margin: auto;
+    margin-top: 250px;
     max-width: 1440px;
     width: auto;
     display: flex;
     justify-content: space-between;
-    padding: 30px 3.8% 0 3.8%;
+    padding: 30px;
 }
 footer section{
     padding: 1em 1em;
@@ -464,6 +464,7 @@ footer section p{
 footer section p:hover{
     border-bottom: 1px solid black;
 }
+
 
 
 @media only screen and (max-width: 600px){
