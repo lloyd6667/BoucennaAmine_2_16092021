@@ -48,9 +48,9 @@ main{
     flex-direction: column;
 }
 .parametres h1{
-    font-weight:bold;
+    font-weight:800;
     margin-bottom: 0;
-    font-size: 0.9em;
+    font-size: 1.35em;
 }
 .parametres p{
     margin-top: 7px;
@@ -389,7 +389,7 @@ aside div article div span{
     justify-content: left;
     margin: 0 0 40px 0;
 }
-.part_activités{
+.part_activites{
     border: solid 1px blue;
     display: flex;
     flex-direction: row;
@@ -465,9 +465,7 @@ footer section p:hover{
     border-bottom: 1px solid black;
 }
 
-
-
-@media only screen and (max-width: 600px){
+@media (min-width: 768px) and (max-width: 1024px){
     .hebergement{
         flex-direction: column-reverse;
         margin: 0;
@@ -493,7 +491,7 @@ footer section p:hover{
         justify-content: space-between;
         padding: 0;
         margin: 40px 40px 0 40px;
-    
+
     }
     .hebergement aside div article{
         width: 29.65%;
@@ -515,7 +513,7 @@ footer section p:hover{
         justify-content: space-between;
         height: 930px;
     }
-    .first_block, .second_block{
+    .block1,.block2,.block3{
         width: 100%;
         justify-content: space-between;
     }
@@ -525,3 +523,184 @@ footer section p:hover{
     }
 }
 
+@media all and (max-width: 871px){
+    .hebergement{
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    main{
+        height: auto;
+    }
+    .activites{
+        height: 1060px;
+    }
+    .hebergement aside{
+        width: 100%;
+    }
+    .hebergement section{
+        width: auto;
+    }
+    .part_activites{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 930px;
+    }
+    .block1,.block2,.block3{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .part_activites article img{
+        object-fit: fill;
+    }
+    input{
+        width: 75%;
+    }
+    .filtres div:nth-child(4)
+    {
+        margin-left: 77px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .hebergement section{
+        padding: 30px;
+    }
+    .hebergement section .mapheb div{
+        flex-direction: column;
+        margin: 0;
+        justify-content: space-between;
+        height: 650px;
+        width: 100%;
+    }
+    .hebergement section .mapheb{
+        height: 1330px;
+        width: 100%;
+    }
+    .hebergement section .mapheb div article{
+        width: auto;
+    }
+    .parametres{
+        height: 500px;
+    }
+    .filtres{
+        height: 270px;
+        display: flex;
+        margin-left: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .filtres div{
+        margin: 0;
+        font-size: 0.9em;
+    }
+    .filtres div span{
+        margin-left: 11px;
+    }
+    .activites{
+        height: 1360px;
+        margin: 30px 30px 0 30px;
+    }
+    .part_activites div{
+        height: 1275px;
+        flex-direction: column;
+    }
+    .block1,.block3{
+        height: 140px;
+        height: 120px;
+    }
+    .image-block1,.image-block2,.image-block3{
+        height: 140px;
+        height: 120px;
+    }
+    .part_activites div{
+        width: 80%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer section{
+        width: 80%;
+    }
+    .filtres div:nth-child(4){
+        margin-left: 0px;
+    }
+    button span{
+        display: none;
+    }
+    .fa-search{
+        display: inline;
+    }
+    .map{
+        height: 50px;
+    }
+    button{
+        width: 55px;
+        border: none;
+        height: 50px;
+        border-radius: 16px 16px 16px 16px;
+    }
+    input{
+        height: 50px;
+        border: none;
+    }
+    form{
+        border: 2px solid #F2F2F2;
+        border-radius: 16px 16px 16px 16px;
+        border-right: none;
+        border-left: none;
+        height: 50px;
+        margin: 1.1em 0 1.3em 0;
+    }
+    header {
+        display: block;
+    }
+    header img {
+        margin-left: 20px;
+
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        position: unset;
+        margin-top: 2px;
+    }
+    header nav a {
+        margin: 45px 30px 10px 30px;
+        width: 100%;
+        border-bottom: 5px solid #F2F2F2;
+        text-align: center;
+    }
+
+    header nav a:hover {
+        border-bottom: 3px solid #0065FC;
+        border-top: unset;
+    }
+    .sign-up {
+        all: unset;
+        position: absolute;
+        top: 19px;
+        right: 20px;
+        width: unset;
+        color: #0065FC;
+        font-weight: bold;
+    }
+    .sign-up:hover{
+        all: unset;
+        border-top: none;
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+        font-weight: bold;
+        position: absolute;
+        top: 19px;
+        right: 20px;
+        width: unset;
+    }
+    main h1 {
+        padding: 20px;
+    }
+    .parametres h1{
+        margin-top: 1.80em;
+    }
+}
