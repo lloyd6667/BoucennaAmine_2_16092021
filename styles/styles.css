@@ -5,7 +5,7 @@ body{
     max-width: 1440px;
     width: auto;
     margin: auto;
-    font-size: 0.98em;
+    font-size: 0.95em;
 }
 
 header{
@@ -24,8 +24,8 @@ nav{
 header nav a{
     text-decoration: none;
     color: black;
-    font-weight: 400;
-    padding: 1.6em;
+    font-weight: 500;
+    padding: 2em;
 }
 
 .sign-up{
@@ -50,7 +50,7 @@ main{
 .parametres h1{
     font-weight:800;
     margin-bottom: 0;
-    font-size: 1.35em;
+    font-size: 1.3em;
 }
 .parametres p{
     margin-top: 7px;
@@ -197,7 +197,7 @@ button:hover{
 .hebergement{
     display: flex;
     justify-content: space-between;
-    margin: 30px 0 30px 0 ;
+    margin: 30px 30px 30px 30px ;
 }
 .hebergement h2{
     font-size: 1.3em;
@@ -249,6 +249,8 @@ button:hover{
     transition: transform .2s;
 }
 .hebergement section .mapheb div article:hover {
+    -ms-transform: scale(1.019); 
+    -webkit-transform: scale(1.019);
     transform: scale(1.019); 
   }
 .hebergement section .mapheb div article:active{
@@ -646,12 +648,12 @@ footer section p:hover{
         border: none;
     }
     form{
-        border: 2px solid #F2F2F2;
+        border: 3px solid #F2F2F2;
         border-radius: 16px 16px 16px 16px;
         border-right: none;
         border-left: none;
         height: 50px;
-        margin: 1.1em 0 1.3em 0;
+        margin: 1.5em 0 1.5em 0;
     }
     header {
         display: block;
@@ -664,24 +666,25 @@ footer section p:hover{
         display: flex;
         justify-content: space-between;
         position: unset;
-        margin-top: 2px;
+        margin-top: 25px;
     }
     header nav a {
-        margin: 45px 30px 10px 30px;
-        width: 100%;
-        border-bottom: 5px solid #F2F2F2;
+        padding: 0 0 20px 0;
+        width: 50%;
+        border-bottom: 3px solid #F2F2F2;
         text-align: center;
     }
 
     header nav a:hover {
         border-bottom: 3px solid #0065FC;
         border-top: unset;
+        padding-top: 0;
     }
     .sign-up {
         all: unset;
         position: absolute;
         top: 19px;
-        right: 20px;
+        right: 0px;
         width: unset;
         color: #0065FC;
         font-weight: bold;
@@ -690,17 +693,13 @@ footer section p:hover{
         all: unset;
         border-top: none;
         color: #0065FC;
-        border-bottom: 3px solid #0065FC;
         font-weight: bold;
         position: absolute;
         top: 19px;
-        right: 20px;
+        right: 10px;
         width: unset;
     }
-    main h1 {
-        padding: 20px;
-    }
     .parametres h1{
-        margin-top: 1.80em;
+        margin-top: 1.8em;
     }
 }
