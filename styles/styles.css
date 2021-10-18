@@ -16,7 +16,7 @@ header{
     padding-top: 2.3%;
 }
 header img{
-    margin-left: 30px;
+    margin-left: 40px;
     
 }
 nav{
@@ -117,7 +117,7 @@ button:hover{
     font-weight: inherit;
 }
 .filtres{
-    display: flex;
+    display: ;
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
@@ -588,7 +588,7 @@ footer section p:hover{
         height: 270px;
         display: flex;
         margin-left: 20px;
-        flex-direction: column;
+        /* flex-direction: column;*/
         align-items: flex-start;
         justify-content: space-between;
     }
