@@ -613,7 +613,10 @@ footer section p:hover{
     .activites{
         height: 1020px;
         width: 300px;
-        margin: 30px 30px 0 30px;
+        margin: 0 30px 0 45px;
+    }
+    .activites h2{
+        margin-left: -13px;
     }
     .part_activites div{
         height: 375px;
