@@ -53,7 +53,7 @@ main{
 }
 .parametres p{
     margin-top: 7px;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 600;
 }
 form {
@@ -400,8 +400,20 @@ aside div article div span{
     height: 384px;
     width: 293px;
 }
-.image-block3{
-    height: 130px;
+.image-block3a{
+    height: 183px;
+    width: 310px;
+}
+.image-block3b{
+    height: 104px;
+    width: 310px;
+}
+.image-block3c{
+    height: 140px;
+    width: 310px;
+}
+.image-block3d{
+    height: 147px;
     width: 310px;
 }
 .block2,.block3{
@@ -607,7 +619,7 @@ footer section p:hover{
         height: 375px;
         
     }
-    .image-block1,.image-block2,.image-block3{
+    .image-block1,.image-block2,.image-block3a,.image-block3b,.image-block3c,.image-block3d{
         height: 120.2px;
         width: 334px;
     }
@@ -650,7 +662,7 @@ footer section p:hover{
     }
     form{
         margin-top:20px;
-        width: 320px;
+        width: 360px;
         border: 3px solid #F2F2F2;
         border-radius: 16px 16px 16px 16px;
         border-right: none;
