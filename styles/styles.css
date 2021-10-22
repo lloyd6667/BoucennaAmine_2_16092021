@@ -379,8 +379,8 @@ aside div article div span{
 /* ##########################################################      Activités      ########################################################## */
 .activites{
     height: 700px;
-    width: 1365px;
-    margin:45px ;
+    width: auto;
+    margin: 35px ;
     padding: 0;
 }
 .activites h2{
@@ -522,7 +522,11 @@ footer section p:hover{
         justify-content: space-between;
         height: 930px;
     }
-    .block1,.block2,.block3{
+    .image-block3a,.image-block3b,.image-block3c,.image-block3d{
+        height: 200px;
+        width: auto;
+    }
+    .block1,.block3{
         width: 100%;
         justify-content: space-between;
     }
@@ -561,10 +565,6 @@ footer section p:hover{
     input{
         width: 75%;
     }
-    .filtres div:nth-child(4)
-    {
-        margin-left: 77px;
-    }
 }
 
 @media screen and (max-width: 610px) {
@@ -585,6 +585,9 @@ footer section p:hover{
     }
     .hebergement section .mapheb div article{
         width: auto;
+    }
+    aside{
+        border-radius: 0px;
     }
     .parametres{
         height: 500px;
@@ -613,10 +616,7 @@ footer section p:hover{
     .activites{
         height: 1020px;
         width: 300px;
-        margin: 0 30px 0 45px;
-    }
-    .activites h2{
-        margin-left: -13px;
+        margin: 0 0 0 27px;
     }
     .part_activites div{
         height: 375px;
@@ -640,9 +640,6 @@ footer section p:hover{
     }
     footer section{
         width: 80%;
-    }
-    .filtres div:nth-child(4){
-        margin-left: 10px;
     }
     button span{
         display: none;
