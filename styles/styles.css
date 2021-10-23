@@ -483,14 +483,17 @@ footer section p:hover{
         height: auto;
     }
     .activites{
-        height: 1060px;
+        height: 500px;
     }
     .hebergement aside{
-        width: 80%;
-        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        width: 100%;
+        height: auto;
     }
     .hebergement aside div{
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         padding: 0px 40px 0px 40px;
     }
@@ -503,9 +506,10 @@ footer section p:hover{
 
     }
     .hebergement aside div article{
-        width: 29.65%;
-        padding: 4px;
-        height: 150px;
+        width: 98%;
+        margin: 4px;
+        padding: 3px;
+        height: 149px;
     }
     .hebergement aside div article img{
         height: 150px;
@@ -518,21 +522,24 @@ footer section p:hover{
         width: auto;
     }
     .part_activites{
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         height: 930px;
     }
     .image-block3a,.image-block3b,.image-block3c,.image-block3d{
-        height: 200px;
-        width: auto;
+        height: 145px;
+        width: 285px;
     }
-    .block1,.block3{
-        width: 100%;
-        justify-content: space-between;
+    .block1,.block2,.block3 div{
+        margin: 30px;
     }
     .filtres div:nth-child(5)
     {
         margin-left: 77px;
+    }
+    footer{
+        margin-top: 10px;
     }
 }
 
@@ -554,18 +561,13 @@ footer section p:hover{
         width: auto;
     }
     .part_activites{
-        flex-direction: column;
         justify-content: space-between;
         height: 930px;
-    }
-    .block1,.block2,.block3{
-        width: 100%;
-        justify-content: space-between;
     }
     input{
         width: 75%;
     }
-}
+} 
 
 @media screen and (max-width: 610px) {
     .hebergement section{
@@ -630,6 +632,9 @@ footer section p:hover{
         width: 334px;
         height: 165px;
         margin: 0 10px 30px -6px;
+    }
+    .part_activites{
+        flex-direction: column;
     }
     .part_activites div{
         width: 80%;
