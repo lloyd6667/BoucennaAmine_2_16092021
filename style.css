@@ -4,11 +4,7 @@ body{
     color: black;
     max-width: 1440px;
     width: auto;
-<<<<<<< Updated upstream:style.css
     margin: auto;
-=======
-    margin: 0 auto;
->>>>>>> Stashed changes:styles/styles.css
     font-size: 0.95em;
 }
 
@@ -17,12 +13,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< Updated upstream:style.css
     margin: 0 2.8% 0 2.8%;
     padding-top: 25px;
-=======
-    padding-top: 2%;
->>>>>>> Stashed changes:styles/styles.css
 }
 nav{
     position: relative;
@@ -31,17 +23,10 @@ nav{
 header nav a{
     text-decoration: none;
     color: black;
-<<<<<<< Updated upstream:style.css
     font-weight: 500;
     padding: 2em;
-=======
-    font-weight: 400;
-    padding: 2em;
 }
-nav a:visited{
-    text-decoration: none;
->>>>>>> Stashed changes:styles/styles.css
-}
+
 .sign-up{
     color: #0065fc;
     font-weight: bolder;
@@ -54,7 +39,6 @@ nav a:hover{                                     /* barre au-dessus du texte */
 /* ##########################################################      Recherche et Filtres     ########################################################## */
 main{
     height: 1344px;
-    padding-left: 20px;
 }
 .parametres{
     position: relative;
@@ -466,7 +450,7 @@ aside div article div span{
 footer{
     background-color: #F2F2F2;
     margin-top: 250px;
-    max-width: 2560px;
+    max-width: 1440px;
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -619,12 +603,8 @@ footer section p:hover{
         height: 300px;
         width: 331px;
         display: flex;
-<<<<<<< Updated upstream:style.css
         margin-left: 5px;
         flex-direction: row;
-=======
-        flex-direction: column;
->>>>>>> Stashed changes:styles/styles.css
         align-items: flex-start;
         justify-content: space-between;
     }
@@ -698,29 +678,22 @@ footer section p:hover{
     header {
         display: block;
     }
-<<<<<<< Updated upstream:style.css
     header img {
         margin: 0 1px 0 12px;
-=======
->>>>>>> Stashed changes:styles/styles.css
 
+    }
     header nav {
         display: flex;
         justify-content: space-between;
         position: unset;
         margin-top: 25px;
     }
-<<<<<<< Updated upstream:style.css
     header nav a {
-=======
-}
-header nav a {
->>>>>>> Stashed changes:styles/styles.css
         padding: 0 0 20px 0;
         width: 50%;
         border-bottom: 3px solid #F2F2F2;
         text-align: center;
-}
+    }
 
     header nav a:hover {
         border-bottom: 3px solid #0065FC;
@@ -730,13 +703,8 @@ header nav a {
     .sign-up {
         all: unset;
         position: absolute;
-<<<<<<< Updated upstream:style.css
         top: 40px;
         right: 10px;
-=======
-        top: 19px;
-        right: 0px;
->>>>>>> Stashed changes:styles/styles.css
         width: unset;
         color: #0065FC;
         font-weight: bold;
@@ -752,10 +720,6 @@ header nav a {
         width: unset;
     }
     .parametres h1{
-<<<<<<< Updated upstream:style.css
         margin-top: 1.5em;
-=======
-        margin-top: 1.8em;
->>>>>>> Stashed changes:styles/styles.css
     }
 }
