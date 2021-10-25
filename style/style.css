@@ -552,7 +552,7 @@ footer section p:hover{
         height: auto;
     }
     .activites{
-        height: 1060px;
+        height: auto;
     }
     .hebergement aside{
         width: 100%;
@@ -562,7 +562,7 @@ footer section p:hover{
     }
     .part_activites{
         justify-content: space-between;
-        height: 930px;
+        height: auto;
     }
     input{
         width: 75%;
